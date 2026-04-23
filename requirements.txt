@@ -1,0 +1,18 @@
+# Core Data Analysis
+pandas
+numpy
+
+# Excel files
+openpyxl
+
+# Visualization
+matplotlib
+seaborn
+
+# Maps
+folium
+
+# Jupyter
+jupyter
+ipykernel
+notebook

@@ -1,0 +1,99 @@
+# ========================================
+# MELBOURNE CRIME ANALYSIS - .gitignore
+# ========================================
+
+# DATA FILES - DO NOT UPLOAD (CRITICAL!)
+# ========================================
+*.xlsx
+*.xls
+*.csv
+data/raw/*
+data/*/
+!data/processed/.gitkeep
+!data/README.md
+
+# PYTHON
+# ========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# JUPYTER NOTEBOOK
+# ========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE / EDITOR
+# ========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS SPECIFIC
+# ========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# OUTPUTS (optional - uncomment if you want to exclude)
+# ========================================
+# outputs/figures/*.png
+# outputs/maps/*.html
+
+# Keep folder structure
+!outputs/figures/.gitkeep
+!outputs/maps/.gitkeep
+
+# TEMPORARY FILES
+# ========================================
+*.log
+*.tmp
+*.temp
+.cache/
+
+# SECRETS (if any)
+# ========================================
+.env
+secrets.json
+config_local.pyanaconda_projects/
