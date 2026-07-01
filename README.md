@@ -92,11 +92,38 @@ jupyter notebook
 
 ## 🗺️ Visualizations
 
-15+ charts including:
-- Temporal trends (line charts)
-- Geographic hotspots (bar charts, maps)
-- Demographic breakdowns (stacked area charts)
-- Interactive Folium map
+### 📈 Total Offences by Year (2016–2025)
+![Total Offences by Year](outputs/figures/total_offences_by_year.png)
+
+> All-time high in 2025 with **623,953 offences** — sharp rebound after the 2021 COVID low of 467,941.
+
+---
+
+### 🏆 Top 10 Offence Types in Melbourne Metro (10 Years)
+![Top 10 Offence Types](outputs/figures/top10_offence_types.png)
+
+> **B40 Theft dominates at 40.1%** (1,383,948 incidents), followed by Breaches of Orders (12.1%) and Assault (9.0%).
+
+---
+
+### 🚗 Motor Vehicle Theft (B41) by Year
+![Motor Vehicle Theft by Year](outputs/figures/motor_vehicle_theft_by_year.png)
+
+> Peaked at **16.0% share in 2024** after a low of 7.1% in 2021. Consistent upward trend from 2022.
+
+---
+
+### 🗺️ Top 10 LGA for Motor Vehicle Theft
+![Top 10 LGA](outputs/figures/top10_lga.png)
+
+> **Hume (11,366)**, Casey (10,095), and Melbourne CBD (9,566) are the highest-risk LGAs.
+
+---
+
+### 📮 Top 10 Postcodes for Motor Vehicle Theft
+![Top 10 Postcodes](outputs/figures/top10_postcodes.png)
+
+> **Postcode 3175 leads with 4,424 incidents** — covering Dandenong, one of Melbourne's highest-density suburban corridors.
 
 ---
 
@@ -143,10 +170,10 @@ Data: Victoria Police Crime Statistics (subject to their terms of use)
 
 ## 👤 Author
 
-**Philip Setiawan**
+**Philip Matthew**
 
 - GitHub: [@matthewphilip-quantlab](https://github.com/matthewphilip-quantlab)
-- LinkedIn: [Philip Matthew](https://linkedin.com/in/philip-matthew)
+- LinkedIn: [Philip Matthew](https://www.linkedin.com/in/philip-matthew-514703341/)
 - Email: matthewphilip788@gmail.com
 
 ---
@@ -161,4 +188,4 @@ Data: Victoria Police Crime Statistics (subject to their terms of use)
 
 ⭐ **If you found this useful, please star the repo!**
 
-*Last updated: January 22, 2026*
+*Last updated: July 1, 2026*
